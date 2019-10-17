@@ -1,0 +1,34 @@
+*.o
+
+# automake
+.depend
+.deps/
+.dirstamp
+aclocal.m4
+autom4te.cache/
+configure
+config.log
+config.status
+depcomp
+install-sh
+missing
+Makefile
+Makefile.in
+
+# Simulationsergebnisse
+output
+
+# Gebaute Programme
+simulation
+swarmpositions
+
+# Profiling-Dateien
+callgrind.out.*
+gmon.out
+
+# Testbezogenes
+test-driver
+test-suite.log
+test/test
+test/test.log
+test/test.trs
